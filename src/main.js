@@ -1,4 +1,4 @@
-//var msg = new SpeechSynthesisUtterance('Hello World');
+//var msg = new SpeechSynthesisUtterance('John and elad are very gays');
 //window.speechSynthesis.speak(msg);
 
 var myNav = ["settings", "read"];
@@ -24,7 +24,7 @@ window.onload = function() {
         temp_a.addEventListener("click", function(){
             redirect(myNav[i]);
         });
-        temp_li.appendChild(temp_a)
+        temp_li.appendChild(temp_a);
     }
 }
 
